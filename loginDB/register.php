@@ -20,7 +20,7 @@
 
         <div class="form-element">
             <label>Contraseña</label>
-            <input type="password" name="password" maxlength="10" pattern="[a-zA-Z0-9]+">
+            <input type="password" name="password" maxlength="10" pattern="[a-zA-Z0-9]+" required>
         </div>
 
         <button type="submit" name="register" value="register">Enviar</button>
